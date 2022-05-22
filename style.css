@@ -31,8 +31,7 @@ a {
 }
 
 
-.content 
-{
+.content {
     display: flex;
     flex-direction: column;
 }
@@ -54,7 +53,7 @@ a {
     gap: 10px;
 }
 
-.description .text .title-text{
+.description .text .title-text {
     color: #F9FAF7;
     font-size: 48px;
     font-weight: 800;
@@ -68,7 +67,7 @@ a {
 .title-image {
     width: 600px;
     height: 235px;
-    
+
     flex: 0 0 auto;
     background-color: #73767c;
 }
@@ -84,3 +83,83 @@ a {
     color: #F9FAF7;
     font-size: 20px;
 }
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    margin-bottom: 70px;
+
+}
+
+.information-title {
+    font-size: 42px;
+    font-weight: 800;
+    margin-bottom: 40px;
+
+}
+
+.illustration {
+
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    flex: 1 0 auto;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.illustration-image {
+    border: 3px solid #3882f6;
+    border-radius: 15px;
+    width: inherit;
+    height: 200px;
+
+    flex: 0 0 auto;
+
+}
+
+.illustration li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    width: 200px;
+    gap: 10px;
+    font-size: 22px;
+    color: #1f2937;
+}
+
+
+.quote {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 70px;
+    padding-right: 300px;
+    padding-left: 300px;
+
+
+}
+
+.quote-body {
+    font-size: 36px;
+    font-style:italic;
+    font-weight: 400;
+    color: #1f2937;
+}
+
+.quote-author {
+    font-size: 30px;
+    font-weight: 700;
+    align-self: flex-end;
+    margin-right: 40px;
+}
+
