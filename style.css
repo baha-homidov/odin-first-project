@@ -151,7 +151,7 @@ a {
 
 .quote-body {
     font-size: 36px;
-    font-style:italic;
+    font-style: italic;
     font-weight: 400;
     color: #1f2937;
 }
@@ -163,3 +163,46 @@ a {
     margin-right: 40px;
 }
 
+.action {
+    display: flex;
+    flex-direction: row;
+    background-color: #3882f6;
+    margin: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 10px;
+}
+
+.action-title {
+    color: white;
+    font-weight: 700;
+    font-size: 27px;
+}
+
+.action-subtext {
+    color: #E5E7EB;
+    font-size: 20px;
+}
+
+.bottom-sign-up {
+    background-color: #3882f6;
+    border: 2px solid white;
+    border-radius: 10px;
+    align-self: center;
+    padding: 7px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: auto;
+    font-size: 18px;
+    color: white;
+}
+
+footer {
+    background-color: #1f2937;
+    color: #E5E7EB;
+    padding: 40px;
+    text-align: center;
+}
